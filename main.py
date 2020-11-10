@@ -13,9 +13,9 @@ name_input = input("Enter a male name: ")
 second_name_input = input("Enter another diffrent name: ")
 city_input = input("Enter the name of a city: ")
 size_adjective = input("Enter a size adjective: ")
-type_of_pet = input("Enter a animal: ")
+type_of_pet = input("Enter an animal: ")
 user_age = input("Enter an age (Writen as a number): ")
-food_input = input("Enter: a food noun(In plural tense): ")
+food_input = input("Enter a food noun(In plural tense): ")
 
 
 
@@ -33,7 +33,7 @@ user_input_action_verb = input("Enter a verb: ")
 cell_holding_matieral = input("Enter a building material: " )
 creature_swarm_number = input("Enter a number: ")
 pet_interjection = input("Enter an interjection: ")
-feeling_verb = input("Enter a feeling verb: ")
+feeling_verb = input("Enter a feeling word(Such as words like kind, fear, or calm): ")
 creature_adjective = input("Enter an adjective: ")
 body_part = input("Enter a body part of any animal: ")
 color_input = input("Enter a color: ")
@@ -58,5 +58,4 @@ print(f"\t {name_input} and {second_name_input} began to {user_input_action_verb
 
 #Fourth and last section of the final mad lib story
 
-print("\t" + name_input + " in a sweat " + user_input_action_verb +  " out of his " + piece_of_furniture + " " + wakingup_adverb + " awaking form his sleep and realizing it was all a dream. He felt " + adverb_input + " to see " + second_name_input + " by his side and no creatures in sight.", end="")
-print("\n\n\t\t The End!!!")
+print("\t" + name_input + " in a sweat " + user_input_action_verb +  " out of his " + piece_of_furniture + " " + wakingup_adverb + " awaking form his sleep and realizing it was all a dream. He felt " + adverb_input + " to see " + second_name_input + " by his side and no creatures in sight." + "\n\n\t\t The End!!!")
